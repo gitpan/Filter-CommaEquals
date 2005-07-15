@@ -1,0 +1,8 @@
+Changes
+Makefile.PL
+MANIFEST
+README
+t/Filter-CommaEquals.t
+lib/Filter/CommaEquals.pm
+example.PL
+META.yml                                 Module meta-data (added by MakeMaker)
