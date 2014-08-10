@@ -1,8 +1,11 @@
 Changes
+lib/Filter/CommaEquals.pm
 Makefile.PL
 MANIFEST
 README
-t/Filter-CommaEquals.t
-lib/Filter/CommaEquals.pm
-example.PL
-META.yml                                 Module meta-data (added by MakeMaker)
+t/00-load.t
+t/boilerplate.t
+t/library.t
+t/manifest.t
+t/pod-coverage.t
+t/pod.t

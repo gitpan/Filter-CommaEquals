@@ -1,28 +1,46 @@
-Filter-CommaEquals version 0.01
-===============================
+Filter::CommaEquals - Adds support for ,= to any package or script
 
-Filter::CommaEquals adds support for ,= to any package or script.
-Perl has +=, -=, /=, *=, .=, and so forth to operate on scalars,
-but it doesn't have ,= to operate on arrays. This module
-effectively lets you rewrite push statements with ,= instead.
+Adds support for ,= to any package or script. Perl has +=, -=, /=, *=, .=, and
+so forth to operate on scalars, but it doesn't have ,= to operate on arrays.
+This module effectively lets you rewrite push statements with ,= instead.
+
 
 INSTALLATION
 
 To install this module type the following:
 
-	perl Makefile.PL
-	make
-	make test
-	make install
+    perl Makefile.PL
+    make
+    make test
+    make install
 
-DEPENDENCIES
 
-This module has no dependencies other than Perl itself.
+SUPPORT AND DOCUMENTATION
 
-COPYRIGHT AND LICENCE
+After installing, you can find documentation for this module with the
+perldoc command.
 
-Copyright (C) 2005 by Gryphon Shafer
+    perldoc Filter::CommaEquals
+
+You can also look for information at:
+
+    RT, CPAN's request tracker
+        http://rt.cpan.org/NoAuth/Bugs.html?Dist=Filter-CommaEquals
+
+    AnnoCPAN, Annotated CPAN documentation
+        http://annocpan.org/dist/Filter-CommaEquals
+
+    CPAN Ratings
+        http://cpanratings.perl.org/d/Filter-CommaEquals
+
+    Search CPAN
+        http://search.cpan.org/dist/Filter-CommaEquals
+
+
+AUTHOR AND LICENSE
+
+Gryphon Shafer, gryphon@cpan.org
 
 This library is free software; you can redistribute it and/or modify
-it under the same terms as Perl itself, either Perl version 5.7.1 or,
+it under the same terms as Perl itself, either Perl version 5.8.4 or,
 at your option, any later version of Perl 5 you may have available.
