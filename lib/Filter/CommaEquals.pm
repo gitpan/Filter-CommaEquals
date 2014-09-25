@@ -1,9 +1,10 @@
 package Filter::CommaEquals;
 use strict;
 use warnings;
+
 use Filter::Simple;
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 FILTER_ONLY
     code => sub {
@@ -11,7 +12,7 @@ FILTER_ONLY
     };
 
 1;
-__END__
+
 =pod
 
 =head1 NAME
@@ -68,7 +69,6 @@ Gryphon Shafer E<lt>gryphon@cpan.orgE<gt>.
 =head1 LICENSE
 
 This library is free software; you can redistribute it and/or modify
-it under the same terms as Perl itself, either Perl version 5.8.4 or,
-at your option, any later version of Perl 5 you may have available.
+it under the same terms as Perl itself.
 
 =cut
